@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atlassian.mobilekit.module.feedback" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:5:5-67
+9-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:5:22-64
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:6:5-79
+10-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:6:22-76
+11
+12    <application>
+12-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:8:5-15:19
+13        <activity
+13-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:9:9-13:49
+14            android:name="com.atlassian.mobilekit.module.feedback.FeedbackActivity"
+14-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:10:13-84
+15            android:excludeFromRecents="true"
+15-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:13:13-46
+16            android:exported="false"
+16-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:12:13-37
+17            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+17-->C:\Users\Temp\Documents\GitHub\mobile-android\feedback-android\src\main\AndroidManifest.xml:11:13-70
+18    </application>
+19
+20</manifest>

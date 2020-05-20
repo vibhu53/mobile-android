@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mp_feedback_components">
+        <item>Android</item>
+    </string-array>
+    <color name="B300">#0065FF</color>
+    <color name="N70">#A5ADBA</color>
+    <color name="dialog_content_text">#5a697c</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="mk_button_right_margin">8dp</dimen>
+    <dimen name="mk_content_bottom_padding">24dp</dimen>
+    <dimen name="mk_title_bottom_padding">20dp</dimen>
+    <dimen name="mk_title_horizontal_padding">24dp</dimen>
+    <dimen name="mk_title_top_padding">24dp</dimen>
+    <string name="feedback_email_address_required">Email address (Required)</string>
+    <string name="feedback_found_an_issue_in_the_covidsafe_app">Found an issue in the COVIDSafe app?</string>
+    <string name="feedback_please_describe_an_issue">Please describe an issue</string>
+    <string name="feedback_we_may_reach_out_to_you_for_further_details_about_your_feedback">We may reach out to you for further details about your feedback.\nYour email address won`t be used for any other purpose.</string>
+    <string name="font_fontFamily_medium" translatable="false">sans-serif</string>
+    <string name="mk_fb_config_err_help">Cannot create feedback. Please check mp_feedback_config.xml in your application resources.</string>
+    <string name="mk_fb_device_offline">Your device is offline.</string>
+    <string name="mk_fb_feedback_empty">Tell us something before sending.</string>
+    <string name="mk_fb_feedback_failed">Sending feedback failed</string>
+    <string name="mk_fb_feedback_sent">Feedback sent</string>
+    <string name="mk_fb_invalid_config_property">\'%s\' configuration property value is invalid.</string>
+    <string name="mk_fb_invalid_email_address">Invalid email address</string>
+    <string name="mk_fb_no_config_property">\'%s\' configuration property value is empty.</string>
+    <string name="mk_fb_retry">Retry</string>
+    <string name="mk_fb_send">Send</string>
+    <string name="mk_fb_sending">Sending…</string>
+    <string name="mp_feedback_apikey"/>
+    <string name="mp_feedback_host"/>
+    <string name="mp_feedback_projectkey"/>
+    <string name="report_issue">Report an issue</string>
+    <style name="MobileKit.DialogButton" parent="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@drawable/feedback_button_text_state</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="MobileKit.FeedbackTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="MobileKit.Text" parent="TextAppearance.AppCompat">
+        <!-- Roboto Regular -->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="MobileKit.Text.Dialog" parent="MobileKit.Text">
+        <!-- Roboto Regular -->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/dialog_content_text</item>
+    </style>
+    <style name="MobileKit.TitleStyle" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@string/font_fontFamily_medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+</resources>
